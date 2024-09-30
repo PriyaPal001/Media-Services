@@ -43,20 +43,19 @@
         </div>
         <div class="hidden lg:flex lg:gap-x-12">
           
-          <!-- <a href="#" class="text-sm font-semibold leading-6 text-white">Image</a>
-          <a href="#" class="text-sm font-semibold leading-6 text-white">{i.name}</a> -->
+          <a href="/Images" class="text-sm font-semibold leading-6 text-white">Images to url</a> 
           
           <HoverCard.Root openDelay={0} closeDelay={0}>
             <HoverCard.Trigger class="text-white">Image</HoverCard.Trigger>
             <HoverCard.Content>
-              SvelteKit - Web development, streamlined
+              <a href="/Images" class="text-sm font-semibold leading-6 text-black">Images to url</a> 
             </HoverCard.Content>
           </HoverCard.Root>
-
+          
           <HoverCard.Root openDelay={0} closeDelay={0}>
             <HoverCard.Trigger class="text-white">Video</HoverCard.Trigger>
             <HoverCard.Content>
-              SvelteKit - Web development, streamlined
+              <a href="#" class="text-sm font-semibold leading-6 text-black">Images to </a> 
             </HoverCard.Content>
           </HoverCard.Root>
         
